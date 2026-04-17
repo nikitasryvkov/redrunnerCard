@@ -5,6 +5,7 @@ import DocumentsPage from "./pages/DocumentsPage";
 import HomePage from "./pages/HomePage";
 import OfferPage from "./pages/OfferPage";
 import PaymentPage from "./pages/PaymentPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import RequisitesPage from "./pages/RequisitesPage";
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/documents" element={<DocumentsPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/offer" element={<OfferPage />} />
         <Route path="/consent" element={<ConsentPage />} />
         <Route path="/requisites" element={<RequisitesPage />} />

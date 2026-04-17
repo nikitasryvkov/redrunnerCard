@@ -15,8 +15,8 @@ export default {
         panelSoft: "#171a25",
       },
       fontFamily: {
-        display: ["'Space Grotesk'", "sans-serif"],
-        body: ["'Manrope'", "sans-serif"],
+        display: ['"Bahnschrift"', '"Segoe UI Variable Display"', '"Trebuchet MS"', "sans-serif"],
+        body: ['"Segoe UI Variable Text"', '"Segoe UI"', "sans-serif"],
       },
       boxShadow: {
         glow: "0 24px 80px rgba(255, 90, 79, 0.14)",

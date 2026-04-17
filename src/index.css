@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,7 +18,7 @@ body {
     radial-gradient(circle at 80% 10%, rgba(187, 36, 56, 0.18), transparent 28%),
     #09090d;
   color: #f5efe8;
-  font-family: "Manrope", sans-serif;
+  font-family: "Segoe UI Variable Text", "Segoe UI", sans-serif;
 }
 
 #root {

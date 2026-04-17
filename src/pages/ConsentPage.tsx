@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { consentSections, siteData } from "../data/site";
 
 export default function ConsentPage() {
@@ -10,7 +11,12 @@ export default function ConsentPage() {
         </h1>
         <p className="mt-4 max-w-3xl text-sm leading-8 text-white/65">
           Ниже собрана краткая и читаемая версия условий, размещенных на сайте RedRuner Design. Она описывает,
-          какие данные могут обрабатываться и на каких основаниях это происходит.
+          какие данные могут обрабатываться и на каких основаниях это происходит. Общие правила работы с
+          персональными данными опубликованы в{" "}
+          <Link to="/privacy-policy" className="font-semibold text-white underline decoration-white/30 underline-offset-4 transition hover:text-ember">
+            политике обработки персональных данных
+          </Link>
+          .
         </p>
       </div>
 

@@ -18,6 +18,15 @@ export default function SiteFooter() {
               {siteData.contacts.email}
             </a>
           </div>
+
+          <div className="mt-6 space-y-2 text-sm leading-7 text-white/60">
+            <p className="text-xs uppercase tracking-[0.24em] text-white/40">Владелец сайта</p>
+            <p className="font-semibold text-white/82">{siteData.legal.fullName}</p>
+            <p>
+              ИНН {siteData.legal.inn} • ОГРНИП {siteData.legal.ogrnip}
+            </p>
+            <p>{siteData.legal.legalAddress}</p>
+          </div>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2">
@@ -29,6 +38,9 @@ export default function SiteFooter() {
               </Link>
               <Link className="block font-semibold text-white transition hover:text-ember" to="/offer">
                 Публичная оферта
+              </Link>
+              <Link className="block font-semibold text-white transition hover:text-ember" to="/privacy-policy">
+                Политика обработки ПДн
               </Link>
               <Link className="block font-semibold text-white transition hover:text-ember" to="/consent">
                 Согласие на обработку данных
