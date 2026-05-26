@@ -57,7 +57,6 @@ export default function SiteFooter() {
           <div className="glass-card p-5">
             <p className="text-xs uppercase tracking-[0.24em] text-ember/80">Контакты</p>
             <div className="mt-4 space-y-3 text-sm text-white/75">
-              <div>{siteData.contacts.location}</div>
               <div>{siteData.contacts.schedule}</div>
               <a className="block font-semibold text-white transition hover:text-ember" href={siteData.contacts.telegramHref} target="_blank" rel="noreferrer">
                 {siteData.contacts.telegram}

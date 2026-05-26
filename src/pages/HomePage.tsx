@@ -151,7 +151,6 @@ export default function HomePage() {
               <ContactRow label="Телефон" value={siteData.contacts.phone} href={siteData.contacts.phoneHref} />
               <ContactRow label="Email" value={siteData.contacts.email} href={siteData.contacts.emailHref} />
               <ContactRow label="Telegram" value={siteData.contacts.telegram} href={siteData.contacts.telegramHref} />
-              <ContactRow label="Локация" value={siteData.contacts.location} />
               <ContactRow label="График" value={siteData.contacts.schedule} />
             </div>
           </div>

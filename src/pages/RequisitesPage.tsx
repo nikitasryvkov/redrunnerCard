@@ -20,7 +20,6 @@ export default function RequisitesPage() {
 
         <Panel title="Адреса">
           <Info label="Юридический адрес" value={siteData.legal.legalAddress} />
-          <Info label="Фактический адрес" value={siteData.legal.businessAddress} />
           <Info label="Почтовый адрес" value={siteData.legal.postalAddress} />
         </Panel>
 

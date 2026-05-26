@@ -18,7 +18,6 @@ export const siteData = {
     legalEmailHref: "mailto:rrd@c777.ru",
     telegram: "@thefuckerguy",
     telegramHref: "https://t.me/thefuckerguy",
-    location: "Москва, Автозаводская улица, 23с931к5",
     schedule: "ПН-ПТ с 11:00 до 18:00",
   },
   pricingNotes: {
@@ -61,7 +60,6 @@ export const siteData = {
     inn: "233010036207",
     ogrnip: "322237500360850",
     legalAddress: "123308, Россия, Москва, ул. Демьяна Бедного, дом 20, корп. 4, кв. 100",
-    businessAddress: "115432, Россия, Москва, Автозаводская улица, 23с931к5",
     postalAddress: "115470, Россия, Москва, Нагатинская набережная, 56к2, кв. 33",
     bankName: 'ФИЛИАЛ "ЦЕНТРАЛЬНЫЙ" БАНКА ВТБ (ПАО)',
     bankBik: "044525411",
